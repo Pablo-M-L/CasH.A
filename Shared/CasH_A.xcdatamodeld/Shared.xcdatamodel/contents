@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Categorias" representedClassName="Categorias" syncable="YES" codeGenerationType="class">
+        <attribute name="color" optional="YES" attributeType="Binary"/>
+        <attribute name="descripcionCategoria" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="imagenCategoria" optional="YES" attributeType="Binary"/>
+        <attribute name="mostrarImagen" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="mostrarTexto" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="nombreCategoria" optional="YES" attributeType="String"/>
+        <relationship name="serviciosAsociados" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Servicios" inverseName="categoriaAsociada" inverseEntity="Servicios"/>
+    </entity>
+    <entity name="Registros" representedClassName="Registros" syncable="YES" codeGenerationType="class">
+        <attribute name="regCategoria" optional="YES" attributeType="String"/>
+        <attribute name="regFecha" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="regPrecio" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="regServicio" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Servicios" representedClassName="Servicios" syncable="YES" codeGenerationType="class">
+        <attribute name="categoria" optional="YES" attributeType="String"/>
+        <attribute name="descripcionServicio" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="imgServicio" optional="YES" attributeType="Binary"/>
+        <attribute name="mostrarImgServicio" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="nombreServicio" optional="YES" attributeType="String"/>
+        <attribute name="precioServicio" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="categoriaAsociada" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Categorias" inverseName="serviciosAsociados" inverseEntity="Categorias"/>
+    </entity>
+    <elements>
+        <element name="Categorias" positionX="-63" positionY="-18" width="128" height="149"/>
+        <element name="Registros" positionX="-45" positionY="99" width="128" height="89"/>
+        <element name="Servicios" positionX="-54" positionY="45" width="128" height="149"/>
+    </elements>
+</model>
