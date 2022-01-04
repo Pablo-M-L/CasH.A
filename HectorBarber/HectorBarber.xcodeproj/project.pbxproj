@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ED38F6A25F8040F000F68CE /* PruebaPablo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED38F6925F8040F000F68CE /* PruebaPablo.swift */; };
+		6ED38F6B25F8040F000F68CE /* PruebaPablo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED38F6925F8040F000F68CE /* PruebaPablo.swift */; };
+		6EE33A8D25D50243009FC03C /* HectorBarber.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6EE33A7725D50240009FC03C /* HectorBarber.xcdatamodeld */; };
+		6EE33A8E25D50243009FC03C /* HectorBarber.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6EE33A7725D50240009FC03C /* HectorBarber.xcdatamodeld */; };
+		6EE33A8F25D50243009FC03C /* HectorBarberApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE33A7925D50240009FC03C /* HectorBarberApp.swift */; };
+		6EE33A9025D50243009FC03C /* HectorBarberApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE33A7925D50240009FC03C /* HectorBarberApp.swift */; };
+		6EE33A9125D50243009FC03C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE33A7A25D50240009FC03C /* ContentView.swift */; };
+		6EE33A9225D50243009FC03C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE33A7A25D50240009FC03C /* ContentView.swift */; };
+		6EE33A9325D50243009FC03C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE33A7B25D50240009FC03C /* Persistence.swift */; };
+		6EE33A9425D50243009FC03C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE33A7B25D50240009FC03C /* Persistence.swift */; };
+		6EE33A9525D50243009FC03C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EE33A7C25D50243009FC03C /* Assets.xcassets */; };
+		6EE33A9625D50243009FC03C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EE33A7C25D50243009FC03C /* Assets.xcassets */; };
+		6EE33AB525D5175A009FC03C /* ListaServicios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE33AB425D5175A009FC03C /* ListaServicios.swift */; };
+		6EE33AB625D5175A009FC03C /* ListaServicios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE33AB425D5175A009FC03C /* ListaServicios.swift */; };
+		6EE33ABA25D51766009FC03C /* ListaCategorias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE33AB925D51766009FC03C /* ListaCategorias.swift */; };
+		6EE33ABB25D51766009FC03C /* ListaCategorias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE33AB925D51766009FC03C /* ListaCategorias.swift */; };
+		6EE33AD625D919F1009FC03C /* CajaRegistradora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE33AD525D919F1009FC03C /* CajaRegistradora.swift */; };
+		6EE33AD725D919F1009FC03C /* CajaRegistradora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE33AD525D919F1009FC03C /* CajaRegistradora.swift */; };
+		6EE33AE025D91CA9009FC03C /* CajaFiltrada.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE33ADF25D91CA9009FC03C /* CajaFiltrada.swift */; };
+		6EE33AE125D91CA9009FC03C /* CajaFiltrada.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE33ADF25D91CA9009FC03C /* CajaFiltrada.swift */; };
+		6EE33AF125D9DECF009FC03C /* Historico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE33AF025D9DECF009FC03C /* Historico.swift */; };
+		6EE33AF225D9DECF009FC03C /* Historico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE33AF025D9DECF009FC03C /* Historico.swift */; };
+		6EE33AFB25E1BED6009FC03C /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE33AFA25E1BED5009FC03C /* ImagePicker.swift */; };
+		6EE33AFC25E1BED6009FC03C /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE33AFA25E1BED5009FC03C /* ImagePicker.swift */; };
+		6EE33B0025E1C1BC009FC03C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE33AFF25E1C1BC009FC03C /* Helper.swift */; };
+		6EE33B0125E1C1BC009FC03C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE33AFF25E1C1BC009FC03C /* Helper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6ED38F6925F8040F000F68CE /* PruebaPablo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaPablo.swift; sourceTree = "<group>"; };
+		6EE33A7825D50240009FC03C /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		6EE33A7925D50240009FC03C /* HectorBarberApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HectorBarberApp.swift; sourceTree = "<group>"; };
+		6EE33A7A25D50240009FC03C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6EE33A7B25D50240009FC03C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		6EE33A7C25D50243009FC03C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EE33A8125D50243009FC03C /* HectorBarber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HectorBarber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE33A8425D50243009FC03C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EE33A8925D50243009FC03C /* HectorBarber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HectorBarber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE33A8B25D50243009FC03C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EE33A8C25D50243009FC03C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		6EE33AB425D5175A009FC03C /* ListaServicios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaServicios.swift; sourceTree = "<group>"; };
+		6EE33AB925D51766009FC03C /* ListaCategorias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaCategorias.swift; sourceTree = "<group>"; };
+		6EE33AD525D919F1009FC03C /* CajaRegistradora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CajaRegistradora.swift; sourceTree = "<group>"; };
+		6EE33ADF25D91CA9009FC03C /* CajaFiltrada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CajaFiltrada.swift; sourceTree = "<group>"; };
+		6EE33AF025D9DECF009FC03C /* Historico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Historico.swift; sourceTree = "<group>"; };
+		6EE33AFA25E1BED5009FC03C /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		6EE33AFF25E1C1BC009FC03C /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EE33A7E25D50243009FC03C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EE33A8625D50243009FC03C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EE33A7125D50240009FC03C = {
+			isa = PBXGroup;
+			children = (
+				6EE33A7625D50240009FC03C /* Shared */,
+				6EE33A8325D50243009FC03C /* iOS */,
+				6EE33A8A25D50243009FC03C /* macOS */,
+				6EE33A8225D50243009FC03C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EE33A7625D50240009FC03C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6EE33A7925D50240009FC03C /* HectorBarberApp.swift */,
+				6EE33A7A25D50240009FC03C /* ContentView.swift */,
+				6EE33A7B25D50240009FC03C /* Persistence.swift */,
+				6EE33A7C25D50243009FC03C /* Assets.xcassets */,
+				6EE33A7725D50240009FC03C /* HectorBarber.xcdatamodeld */,
+				6EE33AB425D5175A009FC03C /* ListaServicios.swift */,
+				6EE33AB925D51766009FC03C /* ListaCategorias.swift */,
+				6EE33AD525D919F1009FC03C /* CajaRegistradora.swift */,
+				6EE33ADF25D91CA9009FC03C /* CajaFiltrada.swift */,
+				6EE33AF025D9DECF009FC03C /* Historico.swift */,
+				6EE33AFA25E1BED5009FC03C /* ImagePicker.swift */,
+				6EE33AFF25E1C1BC009FC03C /* Helper.swift */,
+				6ED38F6925F8040F000F68CE /* PruebaPablo.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6EE33A8225D50243009FC03C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EE33A8125D50243009FC03C /* HectorBarber.app */,
+				6EE33A8925D50243009FC03C /* HectorBarber.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EE33A8325D50243009FC03C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6EE33A8425D50243009FC03C /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		6EE33A8A25D50243009FC03C /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				6EE33A8B25D50243009FC03C /* Info.plist */,
+				6EE33A8C25D50243009FC03C /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EE33A8025D50243009FC03C /* HectorBarber (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EE33A9925D50243009FC03C /* Build configuration list for PBXNativeTarget "HectorBarber (iOS)" */;
+			buildPhases = (
+				6EE33A7D25D50243009FC03C /* Sources */,
+				6EE33A7E25D50243009FC03C /* Frameworks */,
+				6EE33A7F25D50243009FC03C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HectorBarber (iOS)";
+			productName = "HectorBarber (iOS)";
+			productReference = 6EE33A8125D50243009FC03C /* HectorBarber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EE33A8825D50243009FC03C /* HectorBarber (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EE33A9C25D50243009FC03C /* Build configuration list for PBXNativeTarget "HectorBarber (macOS)" */;
+			buildPhases = (
+				6EE33A8525D50243009FC03C /* Sources */,
+				6EE33A8625D50243009FC03C /* Frameworks */,
+				6EE33A8725D50243009FC03C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HectorBarber (macOS)";
+			productName = "HectorBarber (macOS)";
+			productReference = 6EE33A8925D50243009FC03C /* HectorBarber.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EE33A7225D50240009FC03C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					6EE33A8025D50243009FC03C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					6EE33A8825D50243009FC03C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 6EE33A7525D50240009FC03C /* Build configuration list for PBXProject "HectorBarber" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EE33A7125D50240009FC03C;
+			productRefGroup = 6EE33A8225D50243009FC03C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EE33A8025D50243009FC03C /* HectorBarber (iOS) */,
+				6EE33A8825D50243009FC03C /* HectorBarber (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EE33A7F25D50243009FC03C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE33A9525D50243009FC03C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EE33A8725D50243009FC03C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE33A9625D50243009FC03C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EE33A7D25D50243009FC03C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE33B0025E1C1BC009FC03C /* Helper.swift in Sources */,
+				6EE33A8F25D50243009FC03C /* HectorBarberApp.swift in Sources */,
+				6EE33A9325D50243009FC03C /* Persistence.swift in Sources */,
+				6EE33A8D25D50243009FC03C /* HectorBarber.xcdatamodeld in Sources */,
+				6EE33AE025D91CA9009FC03C /* CajaFiltrada.swift in Sources */,
+				6EE33A9125D50243009FC03C /* ContentView.swift in Sources */,
+				6EE33AB525D5175A009FC03C /* ListaServicios.swift in Sources */,
+				6EE33AF125D9DECF009FC03C /* Historico.swift in Sources */,
+				6EE33AFB25E1BED6009FC03C /* ImagePicker.swift in Sources */,
+				6ED38F6A25F8040F000F68CE /* PruebaPablo.swift in Sources */,
+				6EE33ABA25D51766009FC03C /* ListaCategorias.swift in Sources */,
+				6EE33AD625D919F1009FC03C /* CajaRegistradora.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EE33A8525D50243009FC03C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE33B0125E1C1BC009FC03C /* Helper.swift in Sources */,
+				6EE33A9025D50243009FC03C /* HectorBarberApp.swift in Sources */,
+				6EE33A9425D50243009FC03C /* Persistence.swift in Sources */,
+				6EE33A8E25D50243009FC03C /* HectorBarber.xcdatamodeld in Sources */,
+				6EE33AE125D91CA9009FC03C /* CajaFiltrada.swift in Sources */,
+				6EE33A9225D50243009FC03C /* ContentView.swift in Sources */,
+				6EE33AB625D5175A009FC03C /* ListaServicios.swift in Sources */,
+				6EE33AF225D9DECF009FC03C /* Historico.swift in Sources */,
+				6EE33AFC25E1BED6009FC03C /* ImagePicker.swift in Sources */,
+				6ED38F6B25F8040F000F68CE /* PruebaPablo.swift in Sources */,
+				6EE33ABB25D51766009FC03C /* ListaCategorias.swift in Sources */,
+				6EE33AD725D919F1009FC03C /* CajaRegistradora.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6EE33A9725D50243009FC03C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EE33A9825D50243009FC03C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6EE33A9A25D50243009FC03C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MZKL96N2NF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pablomillan.HectorBarber;
+				PRODUCT_NAME = HectorBarber;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EE33A9B25D50243009FC03C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MZKL96N2NF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pablomillan.HectorBarber;
+				PRODUCT_NAME = HectorBarber;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EE33A9D25D50243009FC03C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MZKL96N2NF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pablomillan.HectorBarber;
+				PRODUCT_NAME = HectorBarber;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6EE33A9E25D50243009FC03C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MZKL96N2NF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pablomillan.HectorBarber;
+				PRODUCT_NAME = HectorBarber;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EE33A7525D50240009FC03C /* Build configuration list for PBXProject "HectorBarber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE33A9725D50243009FC03C /* Debug */,
+				6EE33A9825D50243009FC03C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EE33A9925D50243009FC03C /* Build configuration list for PBXNativeTarget "HectorBarber (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE33A9A25D50243009FC03C /* Debug */,
+				6EE33A9B25D50243009FC03C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EE33A9C25D50243009FC03C /* Build configuration list for PBXNativeTarget "HectorBarber (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE33A9D25D50243009FC03C /* Debug */,
+				6EE33A9E25D50243009FC03C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6EE33A7725D50240009FC03C /* HectorBarber.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6EE33A7825D50240009FC03C /* Shared.xcdatamodel */,
+			);
+			currentVersion = 6EE33A7825D50240009FC03C /* Shared.xcdatamodel */;
+			path = HectorBarber.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6EE33A7225D50240009FC03C /* Project object */;
+}
